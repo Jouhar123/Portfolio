@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84cb279f.css",
-    "main.js": "/portfolio/static/js/main.cbecf3fa.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Color-Match-Challenge.jpg": "/portfolio/static/media/Color-Match-Challenge.aa644d0ea2f71a10a992.jpg",
-    "static/media/Hotel.jpg": "/portfolio/static/media/Hotel.eeb08a0d4e48761d0a07.jpg",
-    "static/media/Portal.jpg": "/portfolio/static/media/Portal.cce3159f0060f4527609.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.84cb279f.css.map": "/portfolio/static/css/main.84cb279f.css.map",
-    "main.cbecf3fa.js.map": "/portfolio/static/js/main.cbecf3fa.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.84cb279f.css",
+    "main.js": "/Portfolio/static/js/main.90ec35d3.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Color-Match-Challenge.jpg": "/Portfolio/static/media/Color-Match-Challenge.aa644d0ea2f71a10a992.jpg",
+    "static/media/Hotel.jpg": "/Portfolio/static/media/Hotel.eeb08a0d4e48761d0a07.jpg",
+    "static/media/Portal.jpg": "/Portfolio/static/media/Portal.cce3159f0060f4527609.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.84cb279f.css.map": "/Portfolio/static/css/main.84cb279f.css.map",
+    "main.90ec35d3.js.map": "/Portfolio/static/js/main.90ec35d3.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84cb279f.css",
-    "static/js/main.cbecf3fa.js"
+    "static/js/main.90ec35d3.js"
   ]
 }
