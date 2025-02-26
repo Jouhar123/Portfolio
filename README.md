@@ -11,4 +11,4 @@ Welcome to my portfolio website, built with the MERN stack (MongoDB, Express.js,
 
 <h4>preview for my website</h4>
 
-![Screenshot 2024-08-23 134120](https://github.com/Jouhar123/Portfolio/tree/main/src/images/Portfolio.png)
+![Screenshot 2024-08-23 134120](https://github.com/Jouhar123/Portfolio/blob/main/public/Portfolio.png)
