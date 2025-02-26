@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.84cb279f.css",
-    "main.js": "/Portfolio/static/js/main.90ec35d3.js",
+    "main.css": "/Portfolio/static/css/main.60f3e81c.css",
+    "main.js": "/Portfolio/static/js/main.89f52090.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Color-Match-Challenge.jpg": "/Portfolio/static/media/Color-Match-Challenge.aa644d0ea2f71a10a992.jpg",
     "static/media/Hotel.jpg": "/Portfolio/static/media/Hotel.eeb08a0d4e48761d0a07.jpg",
     "static/media/Portal.jpg": "/Portfolio/static/media/Portal.cce3159f0060f4527609.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.84cb279f.css.map": "/Portfolio/static/css/main.84cb279f.css.map",
-    "main.90ec35d3.js.map": "/Portfolio/static/js/main.90ec35d3.js.map",
+    "main.60f3e81c.css.map": "/Portfolio/static/css/main.60f3e81c.css.map",
+    "main.89f52090.js.map": "/Portfolio/static/js/main.89f52090.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84cb279f.css",
-    "static/js/main.90ec35d3.js"
+    "static/css/main.60f3e81c.css",
+    "static/js/main.89f52090.js"
   ]
 }
