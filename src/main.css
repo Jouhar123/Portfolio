@@ -1,0 +1,205 @@
+.navbar{
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100px;
+    background-color: #151925;
+    transition: top 0.3s;
+}
+.left{
+    width:35%;
+    display: flex;
+    justify-content: left;
+}
+.right{
+    width:55%;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: transparent;
+    width:120px;
+    height:30px;
+    font-size: 18px;
+    color:#03B0FD;
+    cursor: pointer;
+}
+.button {
+  position: relative;
+  border: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.button:focus,
+.button:hover {
+  color: #fff;
+}
+
+.button:focus:after,
+.button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+body{
+    background-color: #151925;
+}
+.title{
+    color:white;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+@keyframes typing {
+    /* web developer */
+/*     
+    0%, 27.3488% { content: ""; }
+    1.667%, 48.2093% { content: "w"; }
+    3.334%, 46.0698% { content: "we"; }
+    5.001%, 44.9302% { content: "web"; }
+    6.668%, 42.7907% { content: "web "; }
+    8.335%, 40.6512% { content: "web d"; }
+    11.669%, 38.5116% { content: "web de"; }
+    13.336%, 36.3721% { content: "web dev"; }
+    15.003%, 34.2326% { content: "web deve"; }
+    16.670%, 32.0930% { content: "web devel"; }
+    19.3953%, 31.9535% { content: "web develo"; }
+    21.5349%, 29.8140% { content: "web develop"; }
+    23.6744%, 28.6744% { content: "web develope"; }
+    25.8140%, 26.5349% { content: "web developer"; }
+   */
+    /* ai-ml developer */
+/*     
+    50.4186%, 99.9302% { content: ""; }
+    52.5581%, 98.7907% { content: "f"; }
+    54.6977%,  97.6512%{ content: "fu"; }
+    56.8372%,  96.5116%{ content: "ful"; }
+    58.9767%,  95.3721%{ content: "full"; }
+    60.1163%,  94.2326%{ content: "full-"; }
+    62.2558%,  93.0930%{ content: "full-S"; }
+    64.3953%,  92.9535%{ content: "full-St"; }
+    66.5349%,  91.2345%{ content: "full-Sta"; }
+    68.6744%,  90.8140%{ content: "full-Stac"; }
+    70.8140%,  89.4943%{ content: "full-Stack"; }
+    72.9535%, 88.6744% { content: "full-Stack "; }
+    74.0930%, 86.5349% { content: "full-Stack D"; }
+    76.2326%, 84.3953% { content: "full-Stack De"; }
+    78.3721%, 82.2558% { content: "full-Stack Dev"; }
+    78.5116%, 80.1163% { content: "full-Stack Devel"; }
+    78.5116%, 80.1163% { content: "full-Stack Develo"; }
+    78.5116%, 80.1163% { content: "full-Stack Develop"; }
+    78.5116%, 80.1163% { content: "full-Stack Develope"; }
+    78.5116%, 80.1163% { content: "full-Stack Developer"; }
+     */
+
+
+
+
+
+
+
+      /* Full-Stack Developer */
+      0%, 16.666% { content: ""; }
+      1.667% { content: "F"; }
+      3.334% { content: "Fu"; }
+      5.001% { content: "Ful"; }
+      6.668% { content: "Full"; }
+      8.335% { content: "Full-"; }
+      10.002% { content: "Full-S"; }
+      11.669% { content: "Full-St"; }
+      13.336% { content: "Full-Sta"; }
+      15.003% { content: "Full-Stac"; }
+      16.670% { content: "Full-Stack"; }
+      18.337% { content: "Full-Stack "; }
+      20.004% { content: "Full-Stack D"; }
+      21.671% { content: "Full-Stack De"; }
+      23.338% { content: "Full-Stack Dev"; }
+      25.005% { content: "Full-Stack Deve"; }
+      26.672% { content: "Full-Stack Devel"; }
+      28.339% { content: "Full-Stack Develo"; }
+      30.006% { content: "Full-Stack Develop"; }
+      31.673% { content: "Full-Stack Develope"; }
+      33.340% { content: "Full-Stack Developer"; }
+    
+      /* Backend Developer */
+      33.341%, 49.999% { content: ""; }
+      34.444% { content: "B"; }
+      35.555% { content: "Ba"; }
+      36.666% { content: "Bac"; }
+      37.777% { content: "Back"; }
+      38.888% { content: "Backe"; }
+      40.000% { content: "Backen"; }
+      41.111% { content: "Backend"; }
+      42.222% { content: "Backend "; }
+      43.333% { content: "Backend D"; }
+      44.444% { content: "Backend De"; }
+      45.555% { content: "Backend Dev"; }
+      46.666% { content: "Backend Deve"; }
+      47.777% { content: "Backend Devel"; }
+      48.888% { content: "Backend Develo"; }
+      50.000% { content: "Backend Develop"; }
+      51.111% { content: "Backend Develope"; }
+      52.222% { content: "Backend Developer"; }
+    
+      /* Web Developer */
+      66.666%, 83.332% { content: ""; }
+      67.777% { content: "W"; }
+      68.888% { content: "We"; }
+      70.000% { content: "Web"; }
+      71.111% { content: "Web "; }
+      72.222% { content: "Web D"; }
+      73.333% { content: "Web De"; }
+      74.444% { content: "Web Dev"; }
+      75.555% { content: "Web Deve"; }
+      76.666% { content: "Web Devel"; }
+      77.777% { content: "Web Develo"; }
+      78.888% { content: "Web Develop"; }
+      80.000% { content: "Web Develope"; }
+      81.111% { content: "Web Developer"; }
+    
+      /* Reset */
+      100% { content: ""; }
+    }
+
+
+  .typewriter {
+    --caret:#03B0FD;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }

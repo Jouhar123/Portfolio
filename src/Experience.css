@@ -1,0 +1,63 @@
+.experience {
+  max-width: 1000px;
+  margin: 50px auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+
+/* Flexbox Layout for Two Columns */
+.timeline-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* Each Experience Box */
+.timeline-item {
+  flex: 1;
+  background: rgba(8, 14, 17, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 170, 255, 0.5);
+}
+
+/* Title Styling */
+h3 {
+  margin: 0;
+  color: #00aaff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Text Styling */
+p {
+  margin: 5px 0;
+  font-size: 2rem;
+  color: #ddd;
+}
+
+/* Make it Responsive */
+@media (max-width: 768px) {
+  .timeline-container {
+      flex-direction: column;
+      gap: 15px;
+  }
+}
