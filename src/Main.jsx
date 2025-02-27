@@ -37,7 +37,7 @@ const Main = () => {
         </div>
         <div className="flex1">
         <a href="mailto:jouharparvez123@gmail.com"><button className='buttonc'>E-Mail Me</button></a>
-        <button onClick={() => window.open("https://drive.google.com/file/d/1bbV6MoTjUn1j2CRL9WExW4SrL5ZxnS3p/view?usp=drive_link", "_blank")} className='buttonb'>Resume</button>
+        <button onClick={() => window.open("https://drive.google.com/file/d/1Kl_zKBftDuTVPyrZNn0q8tkHOn6EGqGA/view?usp=drive_link", "_blank")} className='buttonb'>Resume</button>
         </div>
       </div>
       <div className="right_main">
